@@ -1,0 +1,1967 @@
+{
+  "targets": [
+    {
+      "target": "https://www.gtrk-vyatka.ru/v24live/",
+      "method": null
+    },
+    {
+      "method": "HTTP_TEMPLATE",
+      "target": "https://agregatoreat.ru",
+      "options": {
+        "verb": "GET",
+        "path_qs": "/classifier/ktru-list/?v={{ str(int(10, 1000)) }}",
+        "headers": {
+          "Cookie": "beget=begetok"
+        }
+      }
+    },
+    {
+      "method": "HTTP_TEMPLATE",
+      "target": "https://agregatoreat.ru",
+      "options": {
+        "verb": "GET",
+        "path_qs": "/classifier/ktru-list/?search={{ str(int(1, 30)) }}",
+        "headers": {
+          "Cookie": "beget=begetok"
+        }
+      }
+    },
+    {
+      "target": "https://www.mid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://www.mid.ru/upload/medialibrary/4a0/%D0%9F%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%20%D0%A3%D0%9F%D0%9F%20%D0%B1%D0%B5%D0%B7%20%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8.pdf",
+      "method": "RGET"
+    },
+    {
+      "target": "https://lk.mid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://dgp.mid.ru/",
+      "method": null
+    },
+    {
+      "method": "HTTP_TEMPLATE",
+      "target": "http://www.college-mid.ru/",
+      "options": {
+        "verb": "GET",
+        "path_qs": "/?search={{ str(int(5, 10)) }}",
+        "headers": {
+          "Cookie": "beget=begetok"
+        }
+      }
+    },
+    {
+      "target": "https://zp2020.midpass.ru/",
+      "method": null
+    },
+    {
+      "target": "https://biopassportmid.midpass.ru/",
+      "method": null
+    },
+    {
+      "target": "https://zp.midpass.ru/",
+      "method": null
+    },
+    {
+      "target": "https://deptbook.midpass.ru/",
+      "method": null
+    },
+    {
+      "target": "https://ao.midpass.ru/",
+      "method": null
+    },
+    {
+      "target": "https://analytics.midpass.ru/",
+      "method": null
+    },
+    {
+      "target": "https://auth.midpass.ru/",
+      "method": null
+    },
+    {
+      "target": "https://bbb.dipacademy.ru/",
+      "method": null
+    },
+    {
+      "target": "https://rdgw.dipacademy.ru/",
+      "method": null
+    },
+    {
+      "target": "https://evisa.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://evisacheck.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://visa.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://visaonline.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://do.dipacademy.ru/",
+      "method": null
+    },
+    {
+      "target": "https://eme.dipacademy.ru/",
+      "method": null
+    },
+    {
+      "target": "https://online.dipacademy.ru/",
+      "method": null
+    },
+    {
+      "target": "https://ebiblio.dipacademy.ru/",
+      "method": null
+    },
+    {
+      "target": "https://consreg.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://reentry.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://passportzu.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://passport.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://npweb-iis1.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://nation.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://id.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://electronic-visa.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://osaka.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://warsaw.kdmid.ru",
+      "method": "RGET"
+    },
+    {
+      "target": "https://geneve.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://frankfurt.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://sofia.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://hanoi.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://notary.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://varna.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://genova.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://rasht.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://kirkenes.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://brussels.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://madrid.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://pay.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://zagreb.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://tallinn.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://yerevan.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://srch.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://klaipeda.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://colombo.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://strasbourg.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://dk.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://minsk.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://mumbai.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://trabzon.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://milan.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://jakarta.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://tbilisi.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://luxembourg.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://palermo.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://baku.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://bern.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://brno.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://haifa.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://spq2.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://spq-east2.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://pension.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://tokyo.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://geneva.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://bonn.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://berlin.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://dublin.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://antalya.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://krakow.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://brazzaville.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://ljubljana.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://praha.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://isfahan.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://debrecen.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://tehran.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://new_delhi.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://wp3.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://toronto.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://reg.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://bishkek.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://armenia.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://ph2.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://hochiminh.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://kinshasa.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://villefranche.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://valletta.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://pretoria.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://reykjavik.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://athens.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://alma-ata.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://roma.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://bratislava.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://denmark.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://budapest.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://shanghai.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://london.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://salzburg.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://www.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://stockholm.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://legalize.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://leipzig.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://gppdushanbe.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://islamabad.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://wien.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://gyumri.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://osh.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://liepaja.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://hamburg.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://munchen.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://turku.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://edinburgh.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://baghdad.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://tartu.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://gpp-bishkek.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://antwerpen.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://oslo.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://kharkov.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://cairo.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://telaviv.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://barcelona.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://gpptashkent.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://lappeenranta.kdmid.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://turn.dipacademy.ru/",
+      "method": null
+    },
+    {
+      "target": "https://lk2.dipacademy.ru/",
+      "method": null
+    },
+    {
+      "target": "http://1c.college-mid.ru/",
+      "method": null
+    },
+    {
+      "target": "http://1cvm.college-mid.ru/",
+      "method": null
+    },
+    {
+      "target": "http://doc.college-mid.ru/",
+      "method": null
+    },
+    {
+      "target": "http://edu.college-mid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://lk.dipacademy.ru/",
+      "method": null
+    },
+    {
+      "target": "https://www.dipacademy.ru/",
+      "method": null
+    },
+    {
+      "target": "https://priem.college-mid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://mail.college-mid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://sdo.college-mid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://post.college-mid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://sdo.dipacademy.ru/",
+      "method": null
+    },
+    {
+      "target": "https://paris.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://konstanz.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://hague.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://dubai.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://ottawa.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://seattle.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://bucharest.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://spq-east.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://bangkok.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://washington.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://hongkong.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://quito.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://astana.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://saloniki.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://amman.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://ustkamenogorsk.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://dushanbe.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://ankara.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://karlovy-vary.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://ny.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://jeddah.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://me.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://capetown.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://poznan.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://muscat.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://odessa.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://shenyang.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://spq-new.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://khujand.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://houston.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://marseille.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://san-francisco.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://lisboa.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://vilnius.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://kiev.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://tashkent.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://istanbul.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://w3.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://ph.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://belgrad.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://wp.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://moldova.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://daugavpils.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://gothenburg.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://ashkhabad.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://belgium.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://riyadh.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://narva.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://new-york.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://gdansk.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://attention.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://helsinki.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://podgorica.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://guangzhou.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://montreal.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://chennai.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://santiago.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://ruse.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://wellington.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://beijing.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://abu-dhabi.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://kolkata.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://riga.kdmid.ru/",
+      "method": null
+    },
+    {
+      "target": "http://online.college-mid.ru/",
+      "method": null
+    },
+    {
+      "target": "https://mail.dipacademy.ru/",
+      "method": null
+    },
+    {
+      "target": "http://new.dipacademy.ru/",
+      "method": null
+    },
+    {
+      "target": "http://phoenix-dnr.ru/",
+      "method": null
+    },
+    {
+      "target": "https://trust.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://nazran.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://kazan.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://www.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://b2b.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://mml.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://slim.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://memphis.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://cloudcc.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://mailrelay-02.vimpelcom.ru",
+      "method": null
+    },
+    {
+      "target": "https://remcomsc.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://tsh-tech.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://sms.beemail.ru",
+      "method": null
+    },
+    {
+      "target": "https://dr-uag1.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://probe.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://dr-uag2.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://cardreg.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://beepayxp.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://dealer.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://duality.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://sourcing1.vimpelcom.ru",
+      "method": null
+    },
+    {
+      "target": "https://dealerpay.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://beekas-01.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://beeport.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://dncaps2.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://mn-uag1.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://ple.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://click537.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://beekas-02.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://mn-uag2.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://dncaps.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://yaroslavl.beelinegsm.ru",
+      "method": null
+    },
+    {
+      "target": "https://bolrelay.vimpelcom.ru",
+      "method": null
+    },
+    {
+      "target": "https://ms-vimss04.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://atm2.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://atm3.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://etiket.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://cabinet.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://be-on-line.ru",
+      "method": null
+    },
+    {
+      "target": "https://bee-on-line.ru",
+      "method": null
+    },
+    {
+      "target": "https://beemail.ru",
+      "method": null
+    },
+    {
+      "target": "https://smsgame.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://beepayxp-atm.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://sms.beepost.ru",
+      "method": null
+    },
+    {
+      "target": "https://ufa.beelinegsm.ru",
+      "method": null
+    },
+    {
+      "target": "https://beeapp-rep.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://fmtn.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://vladikavkaz.beelinegsm.ru",
+      "method": null
+    },
+    {
+      "target": "https://els.beelinegsm.ru",
+      "method": null
+    },
+    {
+      "target": "https://pnz.beelinegsm.ru",
+      "method": null
+    },
+    {
+      "target": "https://omsk.beelinegsm.ru",
+      "method": null
+    },
+    {
+      "target": "https://tver.beelinegsm.ru",
+      "method": null
+    },
+    {
+      "target": "https://audioconf2.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://www.vimpelcom.ru",
+      "method": null
+    },
+    {
+      "target": "https://yol.beelinegsm.ru",
+      "method": null
+    },
+    {
+      "target": "https://beepayxppg2.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://khbr.beelinegsm.ru",
+      "method": null
+    },
+    {
+      "target": "https://fmtn-pilot.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://brn.beelinegsm.ru",
+      "method": null
+    },
+    {
+      "target": "https://barnaul.beelinegsm.ru",
+      "method": null
+    },
+    {
+      "target": "https://cdp.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://kemerovo.beelinegsm.ru",
+      "method": null
+    },
+    {
+      "target": "https://privet.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://corpsms.beemail.ru",
+      "method": null
+    },
+    {
+      "target": "https://voronezh.beelinegsm.ru",
+      "method": null
+    },
+    {
+      "target": "https://beepayxppg.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://pass.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://srt.beelinegsm.ru",
+      "method": null
+    },
+    {
+      "target": "https://lipetsk.beelinegsm.ru",
+      "method": null
+    },
+    {
+      "target": "https://vld.beelinegsm.ru",
+      "method": null
+    },
+    {
+      "target": "https://cheboksary.beelinegsm.ru",
+      "method": null
+    },
+    {
+      "target": "https://rostov-on-don.beelinegsm.ru",
+      "method": null
+    },
+    {
+      "target": "https://sml.beelinegsm.ru",
+      "method": null
+    },
+    {
+      "target": "https://nnov.beelinegsm.ru",
+      "method": null
+    },
+    {
+      "target": "https://umcs.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://sts.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://www.spb.beelinegsm.ru",
+      "method": null
+    },
+    {
+      "target": "https://application.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://ksm.beelinegsm.ru",
+      "method": null
+    },
+    {
+      "target": "https://imsc-fe1.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://www.region.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://blg.beelinegsm.ru",
+      "method": null
+    },
+    {
+      "target": "https://imsc-fe3.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://orl.beelinegsm.ru",
+      "method": null
+    },
+    {
+      "target": "https://speedtest.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://ast.beelinegsm.ru",
+      "method": null
+    },
+    {
+      "target": "https://vlg.beelinegsm.ru",
+      "method": null
+    },
+    {
+      "target": "https://atm4.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://chelyabinsk.beelinegsm.ru",
+      "method": null
+    },
+    {
+      "target": "https://rma.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://ekb.beelinegsm.ru",
+      "method": null
+    },
+    {
+      "target": "https://imsc-fe2.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://banners.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://oprosot.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://astrakhan.hlc.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://kur.beelinegsm.ru",
+      "method": null
+    },
+    {
+      "target": "https://dmpapi.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://beelinegsm.ru",
+      "method": null
+    },
+    {
+      "target": "https://beeplus.ru",
+      "method": null
+    },
+    {
+      "target": "https://imsc.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://wap.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://kamchatka.beelinegsm.ru",
+      "method": null
+    },
+    {
+      "target": "https://madonna.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://elearn.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://atm5.beeline.ru",
+      "method": null
+    },
+    {
+      "target": "https://bank.beeline.ru/",
+      "method": "RGET"
+    },
+    {
+      "target": "https://new.beeline.ru/",
+      "method": null
+    },
+    {
+      "target": "https://www.muiv.ru/abiturient/epk/#epk_form",
+      "method": null
+    },
+    {
+      "target": "http://nnovcons.ru/obrazovanie/abiturientam/",
+      "method": null
+    },
+    {
+      "target": "http://89.109.8.255:4042/screen",
+      "method": null
+    },
+    {
+      "target": "https://ngieu.ru/algoritm_postupleniya",
+      "method": null
+    },
+    {
+      "target": "https://nnov.hse.ru/bacnn",
+      "method": null
+    },
+    {
+      "target": "https://pk.hse.ru/",
+      "method": null
+    },
+    {
+      "target": "https://niu.ranepa.ru/abitur/bachelor/",
+      "method": null
+    },
+    {
+      "target": "https://lk.ranepa.ru/pk/auth.php",
+      "method": null
+    },
+    {
+      "target": "https://lka.nngasu.ru/register",
+      "method": null
+    },
+    {
+      "target": "http://www.mgeu-nn.ru/abitur/profile/#/registration",
+      "method": null
+    },
+    {
+      "target": "http://room.mtuci.ru/",
+      "method": null
+    },
+    {
+      "target": "https://abit.lunn.ru/registration",
+      "method": null
+    },
+    {
+      "target": "https://abitur.lunn.ru/",
+      "method": null
+    },
+    {
+      "target": "http://62.220.38.50:8080/",
+      "method": null
+    },
+    {
+      "target": "https://62.220.38.50:8083/login/",
+      "method": null
+    },
+    {
+      "target": "https://www.vvfmtuci.ru/abitur",
+      "method": null
+    },
+    {
+      "target": "https://www.vvfmtuci.ru/uploads/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/Pravila-priema-bakalavrov-na-2022-_-s-izmeneniyami-_spetskvota-_-may_-_-utv_.pdf",
+      "method": null
+    },
+    {
+      "target": "http://inn.fsb.ru/pages/02-rules.html",
+      "method": null
+    },
+    {
+      "target": "https://lk.vsuwt.ru/user/sign-in/abiturient-signup?_referrer=%2Fuser%2Fsign-in%2Flogin",
+      "method": null
+    },
+    {
+      "target": "http://95.79.54.9:8888/",
+      "method": null
+    },
+    {
+      "target": "https://gu-ural.ru/students/learning/account/",
+      "method": null
+    },
+    {
+      "target": "https://priem.urfu.ru/",
+      "method": null
+    },
+    {
+      "target": "https://www.uigps.ru/urovni-i-formy-obucheniya/lichnyy-kabinet-abiturienta/",
+      "method": null
+    },
+    {
+      "target": "https://mcbekhtereva.spb.ru/applicants/lk-abiturienta/",
+      "method": null
+    },
+    {
+      "target": "https://abit.mcbekhtereva.spb.ru/",
+      "method": null
+    },
+    {
+      "target": "https://kpsu.ru/studentu/kabinet-studenta/",
+      "method": null
+    },
+    {
+      "target": "http://oc.kpsu.ru/login",
+      "method": null
+    },
+    {
+      "target": "https://uspu.ru/abitur/",
+      "method": null
+    },
+    {
+      "target": "http://www.ugkp.ru/content/reytingi-abiturientov",
+      "method": null
+    },
+    {
+      "target": "https://kab.uigps.ru/modules/auth/",
+      "method": null
+    },
+    {
+      "target": "https://lk.uspu.ru/login",
+      "method": null
+    },
+    {
+      "target": "https://abiturient.rsvpu.ru/user/sign-in/login?_referrer=%2Fsite%2Findex",
+      "method": null
+    },
+    {
+      "target": "https://open.gu-ural.ru/",
+      "method": null
+    },
+    {
+      "target": "http://aup.uisi.ru/",
+      "method": null
+    },
+    {
+      "target": "https://otdis.ru/p15aa1.html",
+      "method": null
+    },
+    {
+      "target": "https://priem.kazgau.ru/personal/",
+      "method": null
+    },
+    {
+      "target": "http://www.uisi.ru/uisi/abiturient/",
+      "method": null
+    },
+    {
+      "target": "https://abiturient.kpfu.ru/",
+      "method": null
+    },
+    {
+      "target": "https://www.kf-rmat.ru/abitur/profile/#/",
+      "method": null
+    },
+    {
+      "target": "https://idp.ieml.ru/",
+      "method": null
+    },
+    {
+      "target": "https://ieml.ru/personal/",
+      "method": null
+    },
+    {
+      "target": "http://priem.egov66.ru/login",
+      "method": null
+    },
+    {
+      "target": "https://idis.ieml.ru/Education/public/Login.jsp",
+      "method": null
+    },
+    {
+      "target": "http://ksgt.ru/abitur/profile/#/",
+      "method": null
+    },
+    {
+      "target": "https://aso-ksui.ru/abitur/profile/#/",
+      "method": null
+    },
+    {
+      "target": "https://kbmk.ru/abiturientam/reception/",
+      "method": null
+    },
+    {
+      "target": "https://kfu-cabinet.ru/",
+      "method": null
+    },
+    {
+      "target": "https://e.kstu.ru/cabinet/hello/login.jsp",
+      "method": null
+    },
+    {
+      "target": "https://www.kgasu.ru/applicant/",
+      "method": null
+    },
+    {
+      "target": "https://ranepa-proxy-01.ranepa.ru",
+      "method": null
+    },
+    {
+      "target": "https://lk-webproxy-01.ranepa.ru",
+      "method": null
+    },
+    {
+      "target": "https://lk-webproxy-02.ranepa.ru",
+      "method": null
+    },
+    {
+      "target": "https://ranepa-proxy-02.ranepa.ru",
+      "method": null
+    }
+  ]
+}
+{
+  "targets": [
+    {
+      "target": "https://46.17.201.32",
+      "method": null
+    },
+    {
+      "target": "https://46.17.201.61",
+      "method": null
+    },
+    {
+      "target": "http://bank.elba.kontur.ru",
+      "method": null
+    },
+    {
+      "target": "http://46.17.203.21",
+      "method": null
+    },
+    {
+      "target": "https://46.17.202.217",
+      "method": null
+    },
+    {
+      "target": "http://46.17.203.32",
+      "method": null
+    },
+    {
+      "target": "https://46.17.203.21",
+      "method": null
+    },
+    {
+      "target": "https://46.17.203.7",
+      "method": null
+    },
+    {
+      "target": "https://print.kontur.ru",
+      "method": null
+    },
+    {
+      "target": "https://46.17.203.14",
+      "method": null
+    },
+    {
+      "target": "https://test-cms-normativ.kontur.ru",
+      "method": null
+    },
+    {
+      "target": "https://46.17.202.219",
+      "method": null
+    }
+  ]
+}
+[
+    {
+        "page": "http://93.170.82.35",
+        "method": "post"
+    },
+    {
+        "page": "https://93.171.213.146",
+        "method": "post"
+    },
+    {
+        "page": "http://93.170.82.178",
+        "method": "post"
+    },
+    {
+        "page": "https://gubkin.city",
+        "method": "post"
+    },
+    {
+        "page": "http://93.170.82.137",
+        "method": "post"
+    },
+    {
+        "page": "https://93.170.82.94",
+        "method": "post"
+    },
+    {
+        "page": "http://mail1.belgorod.ru",
+        "method": "post"
+    },
+    {
+        "page": "https://93.170.82.172",
+        "method": "post"
+    },
+    {
+        "page": "https://93.170.82.39",
+        "method": "post"
+    },
+    {
+        "page": "https://belspravka.ru",
+        "method": "get"
+    },
+    {
+        "page": "http://beladm.ru",
+        "method": "post"
+    },
+    {
+        "page": "http://93.170.82.46",
+        "method": "post"
+    },
+    {
+        "page": "https://93.170.82.137",
+        "method": "post"
+    },
+    {
+        "page": "http://93.170.82.38",
+        "method": "post"
+    },
+    {
+        "page": "https://93.170.82.170",
+        "method": "post"
+    },
+    {
+        "page": "https://belgorod-news.net",
+        "method": "post"
+    },
+    {
+        "page": "http://93.170.82.36",
+        "method": "post"
+    },
+    {
+        "page": "https://belgorod-news.net",
+        "method": "get"
+    },
+    {
+        "page": "http://afishka31.ru",
+        "method": "get"
+    },
+    {
+        "page": "http://93.170.82.40",
+        "method": "post"
+    },
+    {
+        "page": "https://93.170.82.72",
+        "method": "post"
+    },
+    {
+        "page": "https://93.170.82.101",
+        "method": "post"
+    },
+    {
+        "page": "https://93.170.82.147",
+        "method": "post"
+    },
+    {
+        "page": "http://93.170.82.181",
+        "method": "post"
+    },
+    {
+        "page": "https://stroy-ka.ru",
+        "method": "post"
+    },
+    {
+        "page": "http://93.170.82.121",
+        "method": "post"
+    },
+    {
+        "page": "https://93.170.82.225",
+        "method": "post"
+    },
+    {
+        "page": "http://93.171.213.131",
+        "method": "post"
+    },
+    {
+        "page": "https://93.170.82.232",
+        "method": "post"
+    },
+    {
+        "page": "http://93.171.213.176",
+        "method": "post"
+    },
+    {
+        "page": "http://mk-belgorod.ru",
+        "method": "get"
+    },
+    {
+        "page": "https://tdpra.ru",
+        "method": "post"
+    },
+    {
+        "page": "https://afishka31.ru",
+        "method": "get"
+    },
+    {
+        "page": "http://93.170.82.159",
+        "method": "post"
+    },
+    {
+        "page": "https://93.171.213.134",
+        "method": "post"
+    },
+    {
+        "page": "http://oskol.city",
+        "method": "post"
+    },
+    {
+        "page": "https://93.170.82.76",
+        "method": "post"
+    },
+    {
+        "page": "http://93.170.82.170",
+        "method": "post"
+    },
+    {
+        "page": "http://93.170.82.76",
+        "method": "post"
+    },
+    {
+        "page": "https://93.170.82.195",
+        "method": "post"
+    },
+    {
+        "page": "https://93.170.82.36",
+        "method": "post"
+    },
+    {
+        "page": "http://mail.belgorod.ru",
+        "method": "post"
+    },
+    {
+        "page": "http://93.170.82.147",
+        "method": "post"
+    },
+    {
+        "page": "http://stroy-ka.ru",
+        "method": "get"
+    },
+    {
+        "page": "https://mail.belgorod.ru",
+        "method": "post"
+    },
+    {
+        "page": "http://93.170.82.51",
+        "method": "post"
+    },
+    {
+        "page": "http://93.170.82.92",
+        "method": "post"
+    },
+    {
+        "page": "https://oskol.city",
+        "method": "get"
+    },
+    {
+        "page": "http://93.170.82.83",
+        "method": "post"
+    },
+    {
+        "page": "http://93.170.82.225",
+        "method": "post"
+    },
+    {
+        "page": "https://93.170.82.92",
+        "method": "post"
+    },
+    {
+        "page": "http://93.170.82.134",
+        "method": "post"
+    },
+    {
+        "page": "http://belspravka.ru",
+        "method": "post"
+    },
+    {
+        "page": "http://mirbelogorya.ru",
+        "method": "post"
+    },
+    {
+        "page": "https://belgorod.ru",
+        "method": "post"
+    },
+    {
+        "page": "https://93.170.82.192",
+        "method": "post"
+    },
+    {
+        "page": "http://93.170.82.103",
+        "method": "post"
+    },
+    {
+        "page": "http://93.170.82.72",
+        "method": "post"
+    },
+    {
+        "page": "https://belspravka.ru",
+        "method": "post"
+    },
+    {
+        "page": "https://93.170.82.175",
+        "method": "post"
+    },
+    {
+        "page": "https://93.170.82.246",
+        "method": "post"
+    },
+    {
+        "page": "https://oskol.city",
+        "method": "post"
+    },
+    {
+        "page": "http://afishka31.ru",
+        "method": "post"
+    },
+    {
+        "page": "http://93.171.213.134",
+        "method": "post"
+    },
+    {
+        "page": "http://stroy-ka.ru",
+        "method": "post"
+    },
+    {
+        "page": "http://93.171.213.140",
+        "method": "post"
+    },
+    {
+        "page": "https://93.170.82.38",
+        "method": "post"
+    },
+    {
+        "page": "https://93.170.82.203",
+        "method": "post"
+    },
+    {
+        "page": "http://93.170.82.172",
+        "method": "post"
+    },
+    {
+        "page": "https://93.170.82.121",
+        "method": "post"
+    },
+    {
+        "page": "https://93.170.82.178",
+        "method": "post"
+    },
+    {
+        "page": "https://93.171.213.172",
+        "method": "post"
+    },
+    {
+        "page": "http://gubkin.city",
+        "method": "post"
+    },
+    {
+        "page": "http://93.170.82.114",
+        "method": "post"
+    },
+    {
+        "page": "https://afishka31.ru",
+        "method": "post"
+    },
+    {
+        "page": "http://93.171.213.147",
+        "method": "post"
+    },
+    {
+        "page": "http://tdpra.ru",
+        "method": "post"
+    },
+    {
+        "page": "https://mk-belgorod.ru",
+        "method": "post"
+    },
+    {
+        "page": "http://93.171.213.165",
+        "method": "post"
+    },
+    {
+        "page": "http://belgorod-news.net",
+        "method": "post"
+    },
+    {
+        "page": "http://mk-belgorod.ru",
+        "method": "post"
+    },
+    {
+        "page": "https://gubkin.city",
+        "method": "get"
+    },
+    {
+        "page": "http://gubkin.city",
+        "method": "get"
+    },
+    {
+        "page": "http://93.170.82.175",
+        "method": "post"
+    },
+    {
+        "page": "https://93.170.82.205",
+        "method": "post"
+    },
+    {
+        "page": "https://lk.belgorod.ru",
+        "method": "post"
+    },
+    {
+        "page": "http://beladm.ru",
+        "method": "get"
+    },
+    {
+        "page": "https://tdpra.ru",
+        "method": "get"
+    },
+    {
+        "page": "http://93.170.82.246",
+        "method": "post"
+    },
+    {
+        "page": "https://mail1.belgorod.ru",
+        "method": "post"
+    },
+    {
+        "page": "http://oskol.city",
+        "method": "get"
+    },
+    {
+        "page": "http://93.170.82.205",
+        "method": "post"
+    },
+    {
+        "page": "http://belspravka.ru",
+        "method": "get"
+    },
+    {
+        "page": "http://93.170.82.116",
+        "method": "post"
+    },
+    {
+        "page": "http://93.170.82.141",
+        "method": "post"
+    },
+    {
+        "page": "http://belgorod-news.net",
+        "method": "get"
+    },
+    {
+        "page": "http://mirbelogorya.ru",
+        "method": "get"
+    },
+    {
+        "page": "http://tdpra.ru",
+        "method": "get"
+    },
+    {
+        "page": "http://93.170.82.195",
+        "method": "post"
+    },
+    {
+        "page": "https://stroy-ka.ru",
+        "method": "get"
+    },
+    {
+        "page": "https://mk-belgorod.ru",
+        "method": "get"
+    }
+]
